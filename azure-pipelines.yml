@@ -6,7 +6,7 @@
 trigger:
 - master
 
-Strategy:
+strategy:
   matrix: 
     jdk10_linux:
       imageName: "ubuntu-latest"
