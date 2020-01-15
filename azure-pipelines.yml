@@ -10,9 +10,9 @@ strategy:
   matrix: 
     jdk10_linux:
       imageName: "ubuntu-latest"
-      jdk_version: "1.10"
+      jdk_version: "1.11"
     jdk11_windows:
-      imageName: "windows_latest"
+      imageName: "vs2017-win2016"
       jdk_version: "1.11"
   maxParallel: 2
 
